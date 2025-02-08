@@ -1,16 +1,19 @@
 {
-  "name": "mern-stack-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.13.1",
-    "typescript": "^5.7.3"
-  }
+    "name": "mern-stack-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format:fix": "prettier . --write",
+        "format:check": "prettier . --check",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "prettier": "3.4.2",
+        "typescript": "^5.7.3"
+    }
 }
