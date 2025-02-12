@@ -4,7 +4,9 @@ function welcome(name: string) {
         name:"rahul",
 
     }
-    const u1=user.name
+  
+
+    return user
 }
 
 welcome('nikhil');
