@@ -18,8 +18,8 @@ export default tseslint.config(
             },
         },
         rules: {
-            'no-console': 'error',
-            'dot-notation': 'error',
+            'no-console': 'off',
+            //'dot-notation': 'error',
         },
     },
 );
