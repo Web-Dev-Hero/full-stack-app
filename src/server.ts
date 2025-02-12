@@ -1,12 +1,12 @@
 function welcome(name: string) {
     console.log('welcom,' + name);
     const user = {
-        name:"rahul",
+        name: 'rahul',
+    };
 
-    }
-  
+    const fname = user.name;
 
-    return user
+    return name + fname;
 }
 
 welcome('nikhil');
